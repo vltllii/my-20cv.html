@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    direction: rtl;
+}
+
+.main {
+    display: block;
+    box-shadow: -20px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f3f0f0;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.resume {
+    border-top: black solid 2px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 20px 0px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.right,
+.left {
+    padding: 20px;
+}
+
+.right {
+    flex: 1;
+    background-color: #f3f0f0;
+    color: black;
+    border-left: black solid 2px;
+}
+
+.left {
+    flex: 2;
+}
+
+.profile {
+     padding-bottom: 30px;
+     box-shadow: 20px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.profile img {   
+    margin-top: 30px;
+    display: inline;
+    max-width: 100px;
+    border-radius: 0%;
+    margin-right:40px ;
+}
+
+.profile h1 {
+    margin-bottom: 50px;
+    display: inline;
+    font-size: 1.5em;
+    color: #7b07ff;
+    margin-right:40px ;
+}
+.profile p {    
+    display: inline;
+    margin-right:40px ;
+    font-size: 1.5em;
+}
+.contact ul,
+.languages ul,
+.interests ul,
+.courses ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact h2,
+.languages h2,
+.interests h2,
+.courses h2 {
+    font-size: 1.6em;
+    margin-bottom: 10px;
+    color: #283593;
+}
+
+.contact ul li,
+.languages ul li,
+.interests ul li,
+.courses ul li {
+    margin-bottom: 10px;
+}
+
+.about,
+.experience,
+.education,
+.skills {
+    margin-bottom: 20px;
+}
+
+.about h2,
+.experience h2,
+.education h2,
+.skills h2 {
+    font-size: 1.5em;
+    color: #283593;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills-list li {
+    background-color: black;
+    color: #fff;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    flex: 1 1 30%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.skills-list li:hover {
+    background-color: #3f51b5;
+}
